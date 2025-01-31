@@ -1,0 +1,556 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'lato', Times, serif;
+    font-size: 20px;
+    box-sizing: border-box
+    
+}
+::-webkit-scrollbar {
+    width: 1px;
+  }
+  ::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 10px;
+  }
+  
+
+body{
+    background-color: white;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.strp2{
+
+    width: 100vw;
+    height: 45px;
+    background-color: rgb(0, 0, 0);
+    justify-content:space-between ;
+    width: 100%;
+
+align-items: center;
+    display: flex;
+    padding-left: 10px;
+    gap: 10px;
+}
+.strp1{
+    width: 100%;
+    height: 35px;
+    background-color: rgb(255, 247, 4);
+display: flex;
+align-items: center;
+justify-content: center;
+}
+p#strp1{
+    text-align: center;
+    font-weight: 700;
+    padding: 10px;
+}
+p#strp2{
+    text-align: left;
+    font-weight: 900;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: ;
+    padding-right:100px;
+    padding-left:100px;
+   
+}
+img#loc{
+    filter: invert(1);
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    /* padding-top: 8px; */
+}
+.nav{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left:90px;
+    padding-right:90px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 80px;
+    /* border: 2px solid black; */
+    flex-shrink: 5;
+    position: relative;
+   
+
+}
+a#log1{text-decoration: none;
+    color:white;
+    margin-right: 14px;
+    padding-right:100px;
+   
+
+}
+p.cat{
+    font-weight: bold;
+}
+.cat1{
+    height:50px ;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.cat1:hover{
+    background-color: rgb(255, 247, 4);
+}
+img#logo{
+    /* width: 105px; */
+    height: 40px;
+    margin-right: 10px;
+}
+    img.icon1{
+        height: 25px;
+    }
+    .icon{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    img.icon1{
+        margin: 10px;
+    }
+    .winter1{
+        width: 100%;
+    }
+    img#winter1{
+        width: 100%;
+    }
+    .card{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+        gap: 30px;
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+    .container2{
+        display: flex;
+        justify-content: center;
+
+    }
+    .box1{
+        width: 20%;
+        /* background-color: red; */
+        /* border: 2px solid red; */
+    }
+    .box2{
+        width: 90%;
+        /* border: 2px solid red; */
+        /* background-color: rgb(0, 255, 136); */
+        
+       
+        
+    }
+    p#men{
+        color: black;
+        font-weight: bold;
+        padding: 15px;
+    }
+    p#men1{
+        color: black;
+        font-weight: 400;
+        padding: 15px;
+        margin-bottom: 30px;
+    }
+    em{
+        font-weight: 600;
+        font-style: normal;
+    }
+    .cards{
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center;
+       
+       
+    }
+    .grid{
+        /* border: 2px solid red; */
+       width: 240px;
+       height:400px;
+    }
+    p.grd{
+        font-weight: bold;
+        padding: 5px;
+    }
+    p.grd1{
+        font-weight: light;
+        color: grey;
+        padding: 0px 3px 3px 5px;
+    }
+    p.mp{
+        font-weight: 600;
+    }
+    p.mpc{
+        
+        color: grey;
+        text-decoration: line-through;
+    }
+    p.mpg{
+
+        color: green;
+
+    }
+    .price{
+        display: flex;
+       justify-content: start;
+        gap:10px;
+        margin-top:5px ;
+        margin-left: 5px;
+    }
+    img.grd{
+        margin-left: 15px;
+        border-radius: 10px;
+    }
+   img.i1:hover{
+    src: url(img/a.jpg);
+   }
+   img.i1{
+   
+   }
+   .grid1{
+    background: url(img/a.jpg) ;
+    background-position: center;
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 340px;
+    height:500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    border-radius: 10px;
+    margin-bottom: 20px;
+   }
+   .grid1:hover{
+    background: url(img/a1.jpg);
+    background-position-x: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+   }
+
+   .white{
+    background-color: white;
+   }
+   .grid2{
+    background: url(img/b.jpg) ;
+    background-position: center;
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 340px;
+    height:500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    border-radius: 10px;
+    margin-bottom: 20px;
+   }
+   .grid2:hover{
+    background: url(img/b1.jpg);
+    background-position-x: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+   }
+   .grid3{
+    background: url(img/c1.jpg) ;
+    background-position: center;
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 340px;
+    height:500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    border-radius: 10px;
+    margin-bottom: 20px;
+   }
+   .grid3:hover{
+    background: url(img/c.jpg);
+    background-position-x: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+   }
+   .grid4{
+    background: url(img/d1.jpg) ;
+    background-position: center;
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 340px;
+    height:500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    border-radius: 10px;
+    margin-bottom: 20px;
+   }
+   .grid4:hover{
+    background: url(img/d.jpg);
+    background-position-x: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+   }
+   .grid5{
+    background: url(img/f1.jpg) ;
+    background-position: center;
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 340px;
+    height:500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    border-radius: 10px;
+    margin-bottom: 20px;
+   }
+   .grid5:hover{
+    background: url(img/f.jpg);
+    background-position-x: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+   }
+   .grid6{
+    background: url(img/g1.jpg) ;
+    background-position: center;
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 340px;
+    height:500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    border-radius: 10px;
+    margin-bottom: 20px;
+   }
+   .grid6:hover{
+    background: url(img/g.jpg);
+    background-position-x: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+   }
+   .grid7{
+    background: url(img/h1.jpg) ;
+    background-position: center;
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 340px;
+    height:500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    border-radius: 10px;
+    margin-bottom: 20px;
+   }
+   .grid7:hover{
+    background: url(img/h.jpg);
+    background-position-x: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+   }
+   .grid8{
+    background: url(img/i1.jpg) ;
+    background-position: center;
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 340px;
+    height:500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    border-radius: 10px;
+    margin-bottom: 20px;
+   }
+   .grid8:hover{
+    background: url(img/i.jpg);
+    background-position-x: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+   }
+   .grid9{
+    background: url(img/j1.jpg) ;
+    background-position: center;
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 340px;
+    height:500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    border-radius: 10px;
+    margin-bottom: 20px;
+   }
+   .grid9:hover{
+    background: url(img/j.jpg);
+    background-position-x: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+   }
+   .grid10{
+    background: url(img/k1.jpg) ;
+    background-position: center;
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 340px;
+    height:500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    border-radius: 10px;
+    margin-bottom: 20px;
+   }
+   .grid10:hover{
+    background: url(img/k.jpg);
+    background-position-x: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+   }
+   .grid11{
+    background: url(img/l1.jpg) ;
+    background-position: center;
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 340px;
+    height:500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    border-radius: 10px;
+    margin-bottom: 20px;
+   }
+   .grid11:hover{
+    background: url(img/l.jpg);
+    background-position-x: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+   }
+   .grid12{
+    background: url(img/m1.jpg) ;
+    background-position: center;
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 340px;
+    height:500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    border-radius: 10px;
+    margin-bottom: 20px;
+   }
+   .grid12:hover{
+    background: url(img/m.jpg);
+    background-position-x: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+   }
+   .grid13{
+    background: url(img/o1.jpg) ;
+    background-position: center;
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 340px;
+    height:500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    border-radius: 10px;
+    margin-bottom: 20px;
+   }
+   .grid13:hover{
+    background: url(img/o.jpg);
+    background-position-x: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+   }
+   .grid14{
+    background: url(img/p1.jpg) ;
+    background-position: center;
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 340px;
+    height:500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    border-radius: 10px;
+    margin-bottom: 20px;
+   }
+   .grid14:hover{
+    background: url(img/p.jpg);
+    background-position-x: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+   }
+   .grid15{
+    background: url(img/r1.jpg) ;
+    background-position: center;
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 340px;
+    height:500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    border-radius: 10px;
+    margin-bottom: 20px;
+   }
+   .grid15:hover{
+    background: url(img/r.jpg);
+    background-position-x: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+   }
+   .grid16{
+    background: url(img/s1.jpg) ;
+    background-position: center;
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 240px;
+    height:400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    border-radius: 10px;
+    margin-bottom: 20px;
+   }
+   .grid16:hover{
+    background: url(img/s.jpg);
+    background-position-x: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+   }
+
+    
+
+    
+
+
+
